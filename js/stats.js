@@ -52,7 +52,7 @@ window.renderStatistics = function (ctx, names, times) {
     if (names[i] === "Вы") {
       ctx.fillStyle = "rgba(255, 0, 0, 1)";
     } else {
-      ctx.fillStyle = "hsla(240 ," + Math.floor(Math.random() * 100) + ", 100)";
+      ctx.fillStyle = "hsl(240 ," + Math.floor(Math.random() * 100) + "%, 30%)";
     }
 
     ctx.fillRect(
