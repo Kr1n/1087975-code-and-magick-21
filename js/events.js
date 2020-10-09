@@ -52,7 +52,6 @@
   var wizardCoat = document.querySelector(".setup-wizard .wizard-coat");
   function changeCoatColor() {
     var coatColor = window.randomData.getRandomCoatColor();
-    console.log(coatColor);
     wizardCoat.style.fill = coatColor;
 
     var coatInput = document.getElementsByName("coat-color");
